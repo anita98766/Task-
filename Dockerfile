@@ -9,4 +9,4 @@ RUN apt-get install -y python3 python3-pip && \
 
 COPY . .
 
-CMD ["python", "app.py","0.0.0.0:8000"]
+CMD ["python", "app.py"]
